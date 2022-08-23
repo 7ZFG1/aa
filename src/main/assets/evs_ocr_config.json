@@ -1,0 +1,31 @@
+{   "serverConnection":{
+      "EVSNetworkhostnName": "3.125.129.58",
+      "EVSNetworkUserName" : "aws_ocr2",
+      "EVSNetworkPass"     : "Evstek15243!",
+      "EVSNetworkQueue"    : "rpc_queue4",
+      "ResultQueue"        :"result_rpc_queue"
+    },
+    "captureResolution":"1080p",
+    "cutout": {
+        "style": "rect",
+        "maxWidthPercent": "80%",
+        "alignment": "center",
+        "ratioFromSize": {
+            "width": 100,
+            "height": 80
+        },
+        "strokeWidth": 2,
+        "cornerRadius": 4,
+        "strokeColor": "FFFFFF",
+        "outerColor": "000000",
+        "outerAlpha": 0.3
+     },
+     "flash": {
+        "mode": "manual",
+        "alignment": "bottom_right"
+     },
+     "beepOnResult": true,
+     "vibrateOnResult": true,
+     "blinkAnimationOnResult": true,
+     "cancelOnResult": true
+}
